@@ -1,0 +1,76 @@
+Below are some short Python programs. For each program, answer the associated questions.
+
+Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers.
+
+Q1:	myStr = '6.00x'
+
+	for char in myStr:
+		print(char)
+
+	print('done')
+	
+	a. How many times does '6' print out?
+	b. How many times does '.' print out?
+	c. How many times does '0' print out?
+	d. How many times does 'x' print out?
+	e. How many times does 'done' print out?
+	
+A1:	
+	a. 1
+	b. 1
+	c. 2
+	d. 1
+	e. 1
+
+Q2:	greeting = 'Hello!'
+	count = 0
+
+	for letter in greeting:
+		count += 1
+		if count % 2 == 0:
+			print(letter)
+		print(letter)
+
+	print('done')
+	
+	a. How many times does 'H' print out?
+	b. How many times does 'e' print out? Disregard the letters in the word done.
+	c. How many times does 'l' print out?
+	d. How many times does 'o' print out? Disregard the letters in the word done.
+	e. How many times does '!' print out?
+	f. How many times does 'done' print out?
+	
+A2:	
+	a. 1
+	b. 2
+	c. 3
+	d. 1
+	e. 2
+	f. 1
+
+Q3:	school = 'Massachusetts Institute of Technology'
+	numVowels = 0
+	numCons = 0
+
+	for char in school:
+		if char == 'a' or char == 'e' or char == 'i' \
+		   or char == 'o' or char == 'u':
+			numVowels += 1
+		elif char == 'o' or char == 'M':
+			print(char)
+		else:
+			numCons -= 1
+
+	print('numVowels is: ' + str(numVowels))
+	print('numCons is: ' + str(numCons))
+	
+	a. How many times does 'o' print out? Disregard the 'o''s in last two print statements.
+	b. How many times does 'M' print out?
+	c. How many times does 'numVowels' print out?
+	d. How many times does 'numCons' print out?
+	
+A3:	
+	a. 0
+	b. 1
+	c. 11
+	d. -25
