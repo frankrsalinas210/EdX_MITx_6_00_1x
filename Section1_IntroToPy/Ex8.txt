@@ -1,0 +1,64 @@
+For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.
+
+--------------------------------------------------------------------------------------------
+Hint: Python boolean types
+Remember that in Python words are case-sensitive. The word True is a Python keyword (it is the value of the Boolean type) and is not the same as the word true. Refer to the Python documentation on Boolean values.
+--------------------------------------------------------------------------------------------
+Hint: Priority order of Boolean operations
+For these problems, it's important to understand the priority of Boolean operations. The order of operations is as follows:
+
+	1. Parentheses. Before operating on anything else, Python must evaluate all parentheticals starting at the innermost level.
+
+	2. 'not' statements.
+
+	3. 'and' statements.
+
+	3. 'or' statements.
+
+What this means is that an expression like
+	'not True and False'
+evaluates to False, because the not is evaluated first (not True is False), then the and is evaluated, yielding False and False which is False.
+
+However the expression
+
+	'not (True and False)'
+evaluates to True, because the expression inside the parentheses must be evaluated first - True and False is False. Next the not can be evaluated, yielding not False which is True.
+
+Overall, you should always use parenthesis when writing expressions to make it clear what order you wish to have Python evaluate your expression. As we've seen here, not (True and False) is different from (not True) and False - but it's easy to see how Python will evaluate it when you use parentheses. A statement like not True and False can bring confusion!
+--------------------------------------------------------------------------------------------
+
+Q.1) 3 > 4
+A.1) False
+
+Q.2) 4.0 > 3.999
+A.2) True
+
+Q.3) 4 > 4
+A.3) False
+
+Q.4) 4 > + 4
+A.4) False
+
+Q.5) 2 + 2 == 4
+A.5) True
+
+Q.6) True or False
+A.6) True
+
+Q.7) False or False
+A.7) False
+
+Q.8) not False
+A.8) True
+
+Q.9) 3.0 - 1.0 != 5.0 - 3.0
+A.9) False
+
+Q.10) 3 > 4 or (2 < 3 and 9 > 10)
+A.10) False
+
+Q.11) 4 > 5 or 3 < 4 and 9 > 8
+A.11) True
+
+Q.12) not(4 > 3 and 100 > 6)
+A.12) False

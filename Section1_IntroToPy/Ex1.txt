@@ -1,0 +1,22 @@
+Q.1) What is the difference between an Algorithm and a Program?
+	a)	An algorithm is a conceptual idea, a program is a concrete instantiation of an algorithm.
+	b)	An algorithm is limited to mathematical operation, a program can specify all kinds of operations.
+	c)	An algorithm makes a slow program run fast.
+	d)	An algorithm deals with computer hardware, a program deals with computer software.
+
+A.1) a) An algorithm is a conceptual idea, a program is a concrete instantiation of an algorithm.
+
+Q.2) True or False? A computational mode of thinking means that everything can be viewed as a math problem involving numbers and formulas.
+
+A.2) True
+
+Q.3) True or False? Computer Science is the study of how to build efficient machines that run programs.
+
+A.3) False
+
+Q.4) The two things every computer can do are:
+		a)	Perform calculations
+		b)	Convert electricity to numbers
+		c)	Display results to a screen
+		d)	Remember the results
+A.4) a) and d)

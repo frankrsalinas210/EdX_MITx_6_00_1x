@@ -1,0 +1,41 @@
+For each of the expressions below, specify its type and value. If it generates an error, select type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) in the box for the value. While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understand of basic Python expressions.
+
+Assume we've made the following assignments:
+
+> str1 = 'hello'
+> str2 = ','
+> str3 = 'world'
+
+--------------------------------------------------------------------------------------------
+Note: The Python 'in' operator
+The operators 'in' and 'not in' test for collection membership (a 'collection' refers to a string, list, tuple or dictionary - don't worry, we will cover lists, tuples and dictionaries soon!). The expression
+
+'element in coll'
+
+evaluates to True if element is a member of the collection 'coll', and 'False' otherwise.
+
+The expression
+
+'element not in coll'
+
+evaluates to 'True' if 'element' is NOT a member of the collection 'coll', and 'False' otherwise.
+
+Note this returns the negation of element in 'coll' - that is, the expression 'element not in coll 'is equivalent to the expression 'not (element in coll)'.
+--------------------------------------------------------------------------------------------
+
+Options: NoneType ; int ; float ; boolean ; string
+
+Q.1) str1[len(str1)]
+A.1) NoneType ; error
+
+Q.2) str1 + str2 + str3
+A.2) string ; hello,world
+
+Q.3) str1 + str2 + ' ' + str3
+A.3) string ; hello, world
+
+Q.4) str3 * 3
+A.4) string ; worldworldworld
+
+Q.5) 'hello' == str1
+A.5) boolean ; True

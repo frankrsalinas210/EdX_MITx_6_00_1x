@@ -1,0 +1,14 @@
+Choose the term described by each of the following definitions. 
+Terms: Syntax ; Semantics ; Static semantics
+
+Q.1) Determines whether a string is legal
+
+A.1) Syntax
+
+Q.2) Determines whether a string has meaning
+
+A.2) Static semantics
+
+Q.3) Assigns a meaning to a legal sentence
+		
+A.3) Semantics
