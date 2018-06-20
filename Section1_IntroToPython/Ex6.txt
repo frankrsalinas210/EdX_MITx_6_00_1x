@@ -1,0 +1,37 @@
+For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes).
+While you could simply type these expressions into an IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.
+
+For decimal answers, give the full result, or four decimal places of accuracy (whichever is shortest).
+
+HINT: Floating point errors
+Decimal numbers cannot be stored exactly in the computer because the computer does not have an infiite amount of memory. So decimal numbers are rounded when stored. When you do calculations with these numbers, your final result will be different than the actual result. For example, you may get something like 5.0000000044 instead of 5.0. This is called floating-point rounding error.
+
+Q.1) 6 + 12 -3
+A.1) 15
+
+Q.2) 2 * 3.0
+A.2) 6.0
+
+Q.3) - - 4
+A.3) 4
+
+Q.4) 10/3
+A.4) 3.3333
+
+Q.5) 10.0/3.0
+A.5) 3.3333
+
+Q.6) (2 + 3) * 4
+A.6) 20
+
+Q.7) 2 + 3 * 4
+A.7) 14
+
+Q.8) 2**3 + 1
+A.8) 9
+
+Q.9) 2.1 ** 2.0
+A.9) 4.41
+
+Q.10) 2.2 * 3.0
+A.10) 6.60

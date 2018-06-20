@@ -1,0 +1,26 @@
+Q.1) True or False? A stored program computer is designed to compute precisely one computation, such as a square root, or the trajectory of a missile.
+
+A.1) False
+
+Q.2) True or False? A fixed program computer is designed to run any computation, by interpreting a sequence of program instructions that are read into it.
+
+A.2) False
+
+Q.3) A program counter
+		a)	counts the number of primitive operations executed by the program.
+		b)	counts the number of primitive operations comprising a complex operation.
+		c)	points the computer to the next instruction to execute in the program.
+		d)	remembers how many times a program has been executed.
+		
+A.3) c)	points the computer to the next instruction to execute in the program.
+
+Q.4) What does it mean when we say that "the computer walks through the sequence executing some computation"?
+		a)	The computer tests each instruction to ensure it will not harm the circuitry.
+		b)	The computer executes the instructions in strict, linear sequence, just like walking in a straight line.
+		c)	The computer executes the instructions mostly in a linear sequence, except sometimes it jumps to a different place in the sequence.
+		d)	The computer slowly executes instructions so that we can follow its progress, rather than running a program at full speed.
+A.4) c)	The computer executes the instructions mostly in a linear sequence, except sometimes it jumps to a different place in the sequence.
+
+Q.5) True or False? In order to compute everything that is computable, every computer must be able to handle the sixteen most primitive operations.
+		
+A.5) False

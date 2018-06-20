@@ -1,0 +1,19 @@
+For each of the following expressions, indicate the type of the expression. 
+While you could simply type these expressions into your shell, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.
+
+Options: NoneType ; int ; float; bool
+
+Q.1) 3.14
+A.1) float
+
+Q.2) -34
+A.2) int
+
+Q.3) True		
+A.3) bool
+
+Q.4) None		
+A.4) NoneType
+
+Q.5) 3.0		
+A.5) float
